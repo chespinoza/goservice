@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"bitbucket.org/kardianos/osext"
-	"code.google.com/p/winsvc/eventlog"
-	"code.google.com/p/winsvc/mgr"
-	"code.google.com/p/winsvc/svc"
+	"github.com/chespinoza/winsvc/eventlog"
+	"github.com/chespinoza/winsvc/mgr"
+	"github.com/chespinoza/winsvc/svc"
 )
 
 func newService(c *Config) (*windowsService, error) {
